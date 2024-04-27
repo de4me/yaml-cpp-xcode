@@ -3,4 +3,5 @@ build/
 /bazel-*
 .DS_Store
 **/xcuserdata/
+Xcode/yaml-cpp/Headers/
 
