@@ -1,0 +1,48 @@
+#  headers_input.xcfilelist
+#  yaml-cpp
+#
+#  Created by Denis Popov on 27.09.2023.
+#  
+
+# This file may be set as an input or output file list for a shell script build phase.
+# List file paths below; one per line. These paths will be considered inputs or outputs for the script phase.
+# Build settings will be expanded, e.g. $(SRCROOT)/../..
+
+$(SRCROOT)/../../include
+$(SRCROOT)/../../include/yaml-cpp/anchor.h
+$(SRCROOT)/../../include/yaml-cpp/binary.h
+$(SRCROOT)/../../include/yaml-cpp/contrib/anchordict.h
+$(SRCROOT)/../../include/yaml-cpp/contrib/graphbuilder.h
+$(SRCROOT)/../../include/yaml-cpp/depthguard.h
+$(SRCROOT)/../../include/yaml-cpp/dll.h
+$(SRCROOT)/../../include/yaml-cpp/emitfromevents.h
+$(SRCROOT)/../../include/yaml-cpp/emitter.h
+$(SRCROOT)/../../include/yaml-cpp/emitterdef.h
+$(SRCROOT)/../../include/yaml-cpp/emittermanip.h
+$(SRCROOT)/../../include/yaml-cpp/emitterstyle.h
+$(SRCROOT)/../../include/yaml-cpp/eventhandler.h
+$(SRCROOT)/../../include/yaml-cpp/exceptions.h
+$(SRCROOT)/../../include/yaml-cpp/mark.h
+$(SRCROOT)/../../include/yaml-cpp/node/convert.h
+$(SRCROOT)/../../include/yaml-cpp/node/detail/impl.h
+$(SRCROOT)/../../include/yaml-cpp/node/detail/iterator_fwd.h
+$(SRCROOT)/../../include/yaml-cpp/node/detail/iterator.h
+$(SRCROOT)/../../include/yaml-cpp/node/detail/memory.h
+$(SRCROOT)/../../include/yaml-cpp/node/detail/node_data.h
+$(SRCROOT)/../../include/yaml-cpp/node/detail/node_iterator.h
+$(SRCROOT)/../../include/yaml-cpp/node/detail/node_ref.h
+$(SRCROOT)/../../include/yaml-cpp/node/detail/node.h
+$(SRCROOT)/../../include/yaml-cpp/node/emit.h
+$(SRCROOT)/../../include/yaml-cpp/node/impl.h
+$(SRCROOT)/../../include/yaml-cpp/node/iterator.h
+$(SRCROOT)/../../include/yaml-cpp/node/node.h
+$(SRCROOT)/../../include/yaml-cpp/node/parse.h
+$(SRCROOT)/../../include/yaml-cpp/node/ptr.h
+$(SRCROOT)/../../include/yaml-cpp/node/type.h
+$(SRCROOT)/../../include/yaml-cpp/noexcept.h
+$(SRCROOT)/../../include/yaml-cpp/null.h
+$(SRCROOT)/../../include/yaml-cpp/ostream_wrapper.h
+$(SRCROOT)/../../include/yaml-cpp/parser.h
+$(SRCROOT)/../../include/yaml-cpp/stlemitter.h
+$(SRCROOT)/../../include/yaml-cpp/traits.h
+$(SRCROOT)/../../include/yaml-cpp/yaml.h

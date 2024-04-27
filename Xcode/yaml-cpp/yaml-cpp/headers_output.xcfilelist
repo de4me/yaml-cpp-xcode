@@ -1,0 +1,48 @@
+#  headers_output.xcfilelist
+#  yaml-cpp
+#
+#  Created by Denis Popov on 27.09.2023.
+#  
+
+# This file may be set as an input or output file list for a shell script build phase.
+# List file paths below; one per line. These paths will be considered inputs or outputs for the script phase.
+# Build settings will be expanded, e.g. $(SRCROOT)/Headers
+
+$(SRCROOT)/Headers
+$(SRCROOT)/Headers/anchor.h
+$(SRCROOT)/Headers/binary.h
+$(SRCROOT)/Headers/contrib_anchordict.h
+$(SRCROOT)/Headers/contrib_graphbuilder.h
+$(SRCROOT)/Headers/depthguard.h
+$(SRCROOT)/Headers/dll.h
+$(SRCROOT)/Headers/emitfromevents.h
+$(SRCROOT)/Headers/emitter.h
+$(SRCROOT)/Headers/emitterdef.h
+$(SRCROOT)/Headers/emittermanip.h
+$(SRCROOT)/Headers/emitterstyle.h
+$(SRCROOT)/Headers/eventhandler.h
+$(SRCROOT)/Headers/exceptions.h
+$(SRCROOT)/Headers/mark.h
+$(SRCROOT)/Headers/node_convert.h
+$(SRCROOT)/Headers/node_detail_impl.h
+$(SRCROOT)/Headers/node_detail_iterator_fwd.h
+$(SRCROOT)/Headers/node_detail_iterator.h
+$(SRCROOT)/Headers/node_detail_memory.h
+$(SRCROOT)/Headers/node_detail_node_data.h
+$(SRCROOT)/Headers/node_detail_node_iterator.h
+$(SRCROOT)/Headers/node_detail_node_ref.h
+$(SRCROOT)/Headers/node_detail_node.h
+$(SRCROOT)/Headers/node_emit.h
+$(SRCROOT)/Headers/node_impl.h
+$(SRCROOT)/Headers/node_iterator.h
+$(SRCROOT)/Headers/node_node.h
+$(SRCROOT)/Headers/node_parse.h
+$(SRCROOT)/Headers/node_ptr.h
+$(SRCROOT)/Headers/node_type.h
+$(SRCROOT)/Headers/noexcept.h
+$(SRCROOT)/Headers/null.h
+$(SRCROOT)/Headers/ostream_wrapper.h
+$(SRCROOT)/Headers/parser.h
+$(SRCROOT)/Headers/stlemitter.h
+$(SRCROOT)/Headers/traits.h
+$(SRCROOT)/Headers/yaml.h
