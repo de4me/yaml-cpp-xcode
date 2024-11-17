@@ -22,6 +22,7 @@ $(SRCROOT)/../../include/yaml-cpp/emittermanip.h
 $(SRCROOT)/../../include/yaml-cpp/emitterstyle.h
 $(SRCROOT)/../../include/yaml-cpp/eventhandler.h
 $(SRCROOT)/../../include/yaml-cpp/exceptions.h
+$(SRCROOT)/../../include/yaml-cpp/fptostring.h
 $(SRCROOT)/../../include/yaml-cpp/mark.h
 $(SRCROOT)/../../include/yaml-cpp/node/convert.h
 $(SRCROOT)/../../include/yaml-cpp/node/detail/impl.h

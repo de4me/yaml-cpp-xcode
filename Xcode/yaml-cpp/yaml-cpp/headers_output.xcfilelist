@@ -22,6 +22,7 @@ $(SRCROOT)/Headers/emittermanip.h
 $(SRCROOT)/Headers/emitterstyle.h
 $(SRCROOT)/Headers/eventhandler.h
 $(SRCROOT)/Headers/exceptions.h
+$(SRCROOT)/Headers/fptostring.h
 $(SRCROOT)/Headers/mark.h
 $(SRCROOT)/Headers/node_convert.h
 $(SRCROOT)/Headers/node_detail_impl.h

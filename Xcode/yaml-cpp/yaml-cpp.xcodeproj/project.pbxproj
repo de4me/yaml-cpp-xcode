@@ -171,6 +171,14 @@
 		BD69FE7A2B663D4E00897BCA /* node_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDCC389C2AC450C10072C947 /* node_data.cpp */; };
 		BD69FE7B2B663D4E00897BCA /* parse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDCC38722AC450C10072C947 /* parse.cpp */; };
 		BD69FE7C2B663D4E00897BCA /* stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDCC38902AC450C10072C947 /* stream.cpp */; };
+		BDC190162CEA2373003484C7 /* fptostring.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC190152CEA235B003484C7 /* fptostring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDC190172CEA2373003484C7 /* fptostring.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC190152CEA235B003484C7 /* fptostring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDC190192CEA24A7003484C7 /* fptostring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC190182CEA24A7003484C7 /* fptostring.cpp */; };
+		BDC1901A2CEA24A7003484C7 /* fptostring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC190182CEA24A7003484C7 /* fptostring.cpp */; };
+		BDC1901C2CEA24E6003484C7 /* dragonbox.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC1901B2CEA24E6003484C7 /* dragonbox.h */; };
+		BDC1901D2CEA24E6003484C7 /* dragonbox.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC1901B2CEA24E6003484C7 /* dragonbox.h */; };
+		BDC1901F2CEA2545003484C7 /* fptostring.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC1901E2CEA2545003484C7 /* fptostring.h */; };
+		BDC190202CEA2545003484C7 /* fptostring.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC1901E2CEA2545003484C7 /* fptostring.h */; };
 		BDCC38422AC450B10072C947 /* traits.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC381A2AC450B10072C947 /* traits.h */; };
 		BDCC38432AC450B10072C947 /* eventhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC381B2AC450B10072C947 /* eventhandler.h */; };
 		BDCC38442AC450B10072C947 /* emitter.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC381C2AC450B10072C947 /* emitter.h */; };
@@ -302,6 +310,10 @@
 		BD58EE682AC6FF42006E73C8 /* binary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binary.h; sourceTree = "<group>"; };
 		BD58EE692AC6FF42006E73C8 /* depthguard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = depthguard.h; sourceTree = "<group>"; };
 		BD69FE822B663D4E00897BCA /* yaml-cpp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "yaml-cpp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC190152CEA235B003484C7 /* fptostring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fptostring.h; sourceTree = "<group>"; };
+		BDC190182CEA24A7003484C7 /* fptostring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fptostring.cpp; sourceTree = "<group>"; };
+		BDC1901B2CEA24E6003484C7 /* dragonbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dragonbox.h; sourceTree = "<group>"; };
+		BDC1901E2CEA2545003484C7 /* fptostring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fptostring.h; sourceTree = "<group>"; };
 		BDCC380B2AC450900072C947 /* yaml-cpp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "yaml-cpp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCC380F2AC450900072C947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDCC381A2AC450B10072C947 /* traits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traits.h; sourceTree = "<group>"; };
@@ -432,16 +444,17 @@
 				BD58EE542AC6FF42006E73C8 /* emitterstyle.h */,
 				BD58EE482AC6FF42006E73C8 /* eventhandler.h */,
 				BD58EE532AC6FF42006E73C8 /* exceptions.h */,
+				BDC190152CEA235B003484C7 /* fptostring.h */,
 				BD58EE4D2AC6FF42006E73C8 /* mark.h */,
 				BD58EE662AC6FF42006E73C8 /* node_convert.h */,
 				BD58EE5D2AC6FF42006E73C8 /* node_detail_impl.h */,
-				BD58EE462AC6FF42006E73C8 /* node_detail_iterator_fwd.h */,
 				BD58EE552AC6FF42006E73C8 /* node_detail_iterator.h */,
+				BD58EE462AC6FF42006E73C8 /* node_detail_iterator_fwd.h */,
 				BD58EE642AC6FF42006E73C8 /* node_detail_memory.h */,
+				BD58EE4F2AC6FF42006E73C8 /* node_detail_node.h */,
 				BD58EE502AC6FF42006E73C8 /* node_detail_node_data.h */,
 				BD58EE452AC6FF42006E73C8 /* node_detail_node_iterator.h */,
 				BD58EE5F2AC6FF42006E73C8 /* node_detail_node_ref.h */,
-				BD58EE4F2AC6FF42006E73C8 /* node_detail_node.h */,
 				BD58EE5C2AC6FF42006E73C8 /* node_emit.h */,
 				BD58EE5B2AC6FF42006E73C8 /* node_impl.h */,
 				BD58EE622AC6FF42006E73C8 /* node_iterator.h */,
@@ -522,6 +535,7 @@
 				BDCC38232AC450B10072C947 /* emitterstyle.h */,
 				BDCC381B2AC450B10072C947 /* eventhandler.h */,
 				BDCC38222AC450B10072C947 /* exceptions.h */,
+				BDC1901E2CEA2545003484C7 /* fptostring.h */,
 				BDCC381E2AC450B10072C947 /* mark.h */,
 				BDCC382C2AC450B10072C947 /* node */,
 				BDCC38242AC450B10072C947 /* noexcept.h */,
@@ -583,51 +597,52 @@
 				BDCC38812AC450C10072C947 /* contrib */,
 				BDCC38762AC450C10072C947 /* convert.cpp */,
 				BDCC388D2AC450C10072C947 /* depthguard.cpp */,
-				BDCC38962AC450C10072C947 /* directives.cpp */,
 				BDCC38A02AC450C10072C947 /* directives.h */,
+				BDCC38962AC450C10072C947 /* directives.cpp */,
 				BDCC38892AC450C10072C947 /* emit.cpp */,
 				BDCC38702AC450C10072C947 /* emitfromevents.cpp */,
 				BDCC38742AC450C10072C947 /* emitter.cpp */,
-				BDCC389D2AC450C10072C947 /* emitterstate.cpp */,
 				BDCC38932AC450C10072C947 /* emitterstate.h */,
-				BDCC388E2AC450C10072C947 /* emitterutils.cpp */,
+				BDCC389D2AC450C10072C947 /* emitterstate.cpp */,
 				BDCC387D2AC450C10072C947 /* emitterutils.h */,
+				BDCC388E2AC450C10072C947 /* emitterutils.cpp */,
 				BDCC386A2AC450C10072C947 /* exceptions.cpp */,
-				BDCC38792AC450C10072C947 /* exp.cpp */,
 				BDCC38992AC450C10072C947 /* exp.h */,
+				BDCC38792AC450C10072C947 /* exp.cpp */,
+				BDC190182CEA24A7003484C7 /* fptostring.cpp */,
 				BDCC38732AC450C10072C947 /* indentation.h */,
 				BDCC386B2AC450C10072C947 /* memory.cpp */,
-				BDCC389C2AC450C10072C947 /* node_data.cpp */,
 				BDCC387B2AC450C10072C947 /* node.cpp */,
-				BDCC38942AC450C10072C947 /* nodebuilder.cpp */,
+				BDCC389C2AC450C10072C947 /* node_data.cpp */,
 				BDCC38872AC450C10072C947 /* nodebuilder.h */,
-				BDCC38802AC450C10072C947 /* nodeevents.cpp */,
+				BDCC38942AC450C10072C947 /* nodebuilder.cpp */,
 				BDCC38752AC450C10072C947 /* nodeevents.h */,
+				BDCC38802AC450C10072C947 /* nodeevents.cpp */,
 				BDCC387A2AC450C10072C947 /* null.cpp */,
 				BDCC386E2AC450C10072C947 /* ostream_wrapper.cpp */,
 				BDCC38722AC450C10072C947 /* parse.cpp */,
 				BDCC389E2AC450C10072C947 /* parser.cpp */,
 				BDCC38972AC450C10072C947 /* ptr_vector.h */,
-				BDCC38772AC450C10072C947 /* regex_yaml.cpp */,
 				BDCC389B2AC450C10072C947 /* regex_yaml.h */,
+				BDCC38772AC450C10072C947 /* regex_yaml.cpp */,
 				BDCC386D2AC450C10072C947 /* regeximpl.h */,
-				BDCC38882AC450C10072C947 /* scanner.cpp */,
 				BDCC388F2AC450C10072C947 /* scanner.h */,
-				BDCC38782AC450C10072C947 /* scanscalar.cpp */,
+				BDCC38882AC450C10072C947 /* scanner.cpp */,
 				BDCC38692AC450C10072C947 /* scanscalar.h */,
-				BDCC38912AC450C10072C947 /* scantag.cpp */,
+				BDCC38782AC450C10072C947 /* scanscalar.cpp */,
 				BDCC386C2AC450C10072C947 /* scantag.h */,
+				BDCC38912AC450C10072C947 /* scantag.cpp */,
 				BDCC38922AC450C10072C947 /* scantoken.cpp */,
 				BDCC389F2AC450C10072C947 /* setting.h */,
 				BDCC38712AC450C10072C947 /* simplekey.cpp */,
-				BDCC387C2AC450C10072C947 /* singledocparser.cpp */,
 				BDCC38982AC450C10072C947 /* singledocparser.h */,
-				BDCC38902AC450C10072C947 /* stream.cpp */,
+				BDCC387C2AC450C10072C947 /* singledocparser.cpp */,
 				BDCC387F2AC450C10072C947 /* stream.h */,
+				BDCC38902AC450C10072C947 /* stream.cpp */,
 				BDCC388B2AC450C10072C947 /* streamcharsource.h */,
 				BDCC388C2AC450C10072C947 /* stringsource.h */,
-				BDCC388A2AC450C10072C947 /* tag.cpp */,
 				BDCC386F2AC450C10072C947 /* tag.h */,
+				BDCC388A2AC450C10072C947 /* tag.cpp */,
 				BDCC389A2AC450C10072C947 /* token.h */,
 			);
 			name = src;
@@ -637,6 +652,7 @@
 		BDCC38812AC450C10072C947 /* contrib */ = {
 			isa = PBXGroup;
 			children = (
+				BDC1901B2CEA24E6003484C7 /* dragonbox.h */,
 				BDCC38852AC450C10072C947 /* graphbuilder.cpp */,
 				BDCC38832AC450C10072C947 /* graphbuilderadapter.cpp */,
 				BDCC38862AC450C10072C947 /* graphbuilderadapter.h */,
@@ -708,6 +724,7 @@
 				BD69FE332B663D4E00897BCA /* contrib_graphbuilder.h in Headers */,
 				BD69FE342B663D4E00897BCA /* noexcept.h in Headers */,
 				BD69FE352B663D4E00897BCA /* parser.h in Headers */,
+				BDC190172CEA2373003484C7 /* fptostring.h in Headers */,
 				BD69FE362B663D4E00897BCA /* node.h in Headers */,
 				BD69FE372B663D4E00897BCA /* yaml.h in Headers */,
 				BD69FE382B663D4E00897BCA /* emitterutils.h in Headers */,
@@ -719,9 +736,11 @@
 				BD69FE3E2B663D4E00897BCA /* node_node.h in Headers */,
 				BD69FE3F2B663D4E00897BCA /* scanner.h in Headers */,
 				BD69FE402B663D4E00897BCA /* ostream_wrapper.h in Headers */,
+				BDC1901D2CEA24E6003484C7 /* dragonbox.h in Headers */,
 				BD69FE412B663D4E00897BCA /* emitterstyle.h in Headers */,
 				BD69FE422B663D4E00897BCA /* ptr_vector.h in Headers */,
 				BD69FE432B663D4E00897BCA /* emitter.h in Headers */,
+				BDC1901F2CEA2545003484C7 /* fptostring.h in Headers */,
 				BD69FE442B663D4E00897BCA /* type.h in Headers */,
 				BD69FE452B663D4E00897BCA /* token.h in Headers */,
 				BD69FE462B663D4E00897BCA /* parse.h in Headers */,
@@ -811,6 +830,7 @@
 				BD58EE772AC6FF53006E73C8 /* contrib_graphbuilder.h in Headers */,
 				BDCC384C2AC450B10072C947 /* noexcept.h in Headers */,
 				BDCC38482AC450B10072C947 /* parser.h in Headers */,
+				BDC190162CEA2373003484C7 /* fptostring.h in Headers */,
 				BDCC38552AC450B10072C947 /* node.h in Headers */,
 				BDCC38522AC450B10072C947 /* yaml.h in Headers */,
 				BDCC38B52AC450C10072C947 /* emitterutils.h in Headers */,
@@ -822,9 +842,11 @@
 				BD58EE852AC6FF53006E73C8 /* node_node.h in Headers */,
 				BDCC38C62AC450C10072C947 /* scanner.h in Headers */,
 				BDCC38632AC450B10072C947 /* ostream_wrapper.h in Headers */,
+				BDC1901C2CEA24E6003484C7 /* dragonbox.h in Headers */,
 				BD58EE822AC6FF53006E73C8 /* emitterstyle.h in Headers */,
 				BDCC38CE2AC450C10072C947 /* ptr_vector.h in Headers */,
 				BDCC38442AC450B10072C947 /* emitter.h in Headers */,
+				BDC190202CEA2545003484C7 /* fptostring.h in Headers */,
 				BDCC38532AC450B10072C947 /* type.h in Headers */,
 				BDCC38D12AC450C10072C947 /* token.h in Headers */,
 				BDCC38542AC450B10072C947 /* parse.h in Headers */,
@@ -1008,6 +1030,7 @@
 				BD69FE6A2B663D4E00897BCA /* emit.cpp in Sources */,
 				BD69FE6B2B663D4E00897BCA /* depthguard.cpp in Sources */,
 				BD69FE6C2B663D4E00897BCA /* scanscalar.cpp in Sources */,
+				BDC190192CEA24A7003484C7 /* fptostring.cpp in Sources */,
 				BD69FE6D2B663D4E00897BCA /* emitter.cpp in Sources */,
 				BD69FE6E2B663D4E00897BCA /* regex_yaml.cpp in Sources */,
 				BD69FE6F2B663D4E00897BCA /* tag.cpp in Sources */,
@@ -1046,6 +1069,7 @@
 				BDCC38C02AC450C10072C947 /* emit.cpp in Sources */,
 				BDCC38C42AC450C10072C947 /* depthguard.cpp in Sources */,
 				BDCC38B02AC450C10072C947 /* scanscalar.cpp in Sources */,
+				BDC1901A2CEA24A7003484C7 /* fptostring.cpp in Sources */,
 				BDCC38AC2AC450C10072C947 /* emitter.cpp in Sources */,
 				BDCC38AF2AC450C10072C947 /* regex_yaml.cpp in Sources */,
 				BDCC38C12AC450C10072C947 /* tag.cpp in Sources */,
